@@ -5,6 +5,8 @@ import { allLanguages } from 'constants/localisation/languageCodes'
 import { LanguageContext } from 'hooks/LanguageContext'
 import useTheme from 'hooks/useTheme'
 import useGetPriceData from 'hooks/useGetPriceData'
+import useGetbrrlPriceData from 'hooks/useGetbrrlPriceData'
+import useGettsbPriceData from 'hooks/useGettsbPriceData'
 import useGetLocalProfile from 'hooks/useGetLocalProfile'
 import { connectorsByName } from 'connectors'
 import links from './config'
@@ -15,6 +17,8 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const priceData = useGetPriceData()
   const cakePriceUsd = useGetPriceData()
+  const brrlPriceUsd = useGetbrrlPriceData()
+  const tsbPriceUsd = useGettsbPriceData()
   const profile = useGetLocalProfile()
 
   return (
@@ -34,6 +38,8 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
+      brrlPriceUsd={brrlPriceUsd}
+      tsbPriceUsd={tsbPriceUsd}
       profile={profile}
       {...props}
     />
