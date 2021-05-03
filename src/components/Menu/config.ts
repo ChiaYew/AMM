@@ -13,11 +13,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.bourbondefi.com/',
+        href: 'https://v2exchange.bourbondefi.com/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.bourbondefi.com/#/pool',
+        href: 'https://v2exchange.bourbondefi.com/#/pool',
       },
     ],
   },
@@ -27,7 +27,7 @@ const config: MenuEntry[] = [
     href: 'https://www.bourbondefi.com/farms',
   },
   {
-    label: 'Pools',
+    label: 'Distillery',
     icon: 'PoolIcon',
     href: 'https://www.bourbondefi.com/pools',
   },
