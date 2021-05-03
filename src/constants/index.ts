@@ -10,20 +10,14 @@ type ChainTokenList = {
 export const DAI = new Token(ChainId.MAINNET, '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', 18, 'DAI', 'Dai Stablecoin')
 export const BUSD = new Token(ChainId.MAINNET, '0xe9e7cea3dedca5984780bafc599bd69add087d56', 18, 'BUSD', 'Binance USD')
 export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff775485246999027b3197955', 18, 'USDT', 'Tether USD')
-export const UST = new Token(
-  ChainId.MAINNET,
-  '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
-  18,
-  'UST',
-  'Wrapped UST Token'
-)
-export const ETH = new Token(
-  ChainId.MAINNET,
-  '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
-  18,
-  'ETH',
-  'Binance-Peg Ethereum Token'
-)
+export const EOS = new Token(ChainId.MAINNET, '0x56b6fb708fc5732dec1afc8d8556423a2edccbd6', 18, 'EOS', 'EOS Token')
+export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869ea2c873402', 18, 'DOT', 'Polkadot Token')
+export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
+export const RBT = new Token(ChainId.MAINNET, '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404', 18, 'RBT', 'Rare Bourbon Token')
+export const BRRL = new Token(ChainId.MAINNET, '0xcbe73dd7E8FC74011136b837a59205801c45e6A1', 18, 'BRRL', 'Bourbon Barrel Token')
+export const TSB = new Token(ChainId.MAINNET, '0xcbe73dd7E8FC74011136b837a59205801c45e6A1', 18, 'TSB', 'Top Shelf Bourbon')
+
+
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
