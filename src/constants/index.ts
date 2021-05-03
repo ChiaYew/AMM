@@ -16,6 +16,8 @@ export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd
 export const RBT = new Token(ChainId.MAINNET, '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404', 18, 'RBT', 'Rare Bourbon Token')
 export const BRRL = new Token(ChainId.MAINNET, '0xcbe73dd7E8FC74011136b837a59205801c45e6A1', 18, 'BRRL', 'Bourbon Barrel Token')
 export const TSB = new Token(ChainId.MAINNET, '0xcbe73dd7E8FC74011136b837a59205801c45e6A1', 18, 'TSB', 'Top Shelf Bourbon')
+export const UST = new Token(ChainId.MAINNET, '0x23396cf899ca06c4472205fc903bdb4de249d6fc', 18, 'UST', 'Wrapped UST Token')
+
 
 
 
