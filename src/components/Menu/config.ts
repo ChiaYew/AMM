@@ -32,6 +32,11 @@ const config: MenuEntry[] = [
     href: 'https://www.bourbondefi.com/pools',
   },
   {
+    label: 'The Bar',
+    icon: 'IfoIcon',
+    href: 'https://www.bourbondefi.com/bush',
+  },
+  {
     label: 'Bourbon Barrel Token',
     icon: 'InfoIcon',
     items: [
