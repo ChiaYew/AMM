@@ -2123,7 +2123,7 @@
 
 "@pancakeswap-libs/uikit@bourbondefi/BourbonV2-uikit#releases_refresh":
   version "0.13.1"
-  resolved "https://codeload.github.com/bourbondefi/BourbonV2-uikit/tar.gz/3e3204d4cc7df4513826110e407c169e8fa48851"
+  resolved "https://codeload.github.com/bourbondefi/BourbonV2-uikit/tar.gz/d11518ec769248e7fdbe89478239b281d48e2d53"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
