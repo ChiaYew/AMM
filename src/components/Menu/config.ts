@@ -32,11 +32,6 @@ const config: MenuEntry[] = [
     href: 'https://www.bourbondefi.com/pools',
   },
   {
-    label: 'Bourbon Derby',
-    icon: 'TicketIcon',
-    href: 'https://www.bourbondefi.com/lottery'
-  },
-  {
     label: 'The Bar',
     icon: 'IfoIcon',
     href: 'https://www.bourbondefi.com/bush',
