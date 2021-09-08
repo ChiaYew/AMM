@@ -9,32 +9,27 @@ const config: MenuEntry[] = [
   {
     label: 'Trade',
     icon: 'TradeIcon',
-    initialOpenState: true,
+    initialOpenState: false,
     items: [
       {
         label: 'Exchange',
-        href: 'https://v2exchange.bourbondefi.com/',
+        href: 'https://exchange.bourbondefi.com/',
       },
       {
         label: 'Liquidity',
-        href: 'https://v2exchange.bourbondefi.com/#/pool',
+        href: 'https://exchange.bourbondefi.com/#/pool',
       },
     ],
   },
   {
-    label: 'Farms',
+    label: 'V4 Coming Soon',
     icon: 'FarmIcon',
-    href: 'https://www.bourbondefi.com/farms',
+    href: '/',
   },
   {
-    label: 'Distillery',
+    label: 'V4 Coming Soon',
     icon: 'PoolIcon',
-    href: 'https://www.bourbondefi.com/pools',
-  },
-  {
-    label: 'The Bar',
-    icon: 'IfoIcon',
-    href: 'https://www.bourbondefi.com/bush',
+    href: '/',
   },
   {
     label: 'Bourbon Barrel Token',
@@ -82,21 +77,6 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: '/pools',
-  // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
 ]
 
 export default config
