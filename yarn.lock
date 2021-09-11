@@ -2260,7 +2260,7 @@
 
 "@pancakeswap-libs/uikit@bourbondefi/BourbonV2-uikit#releases_refresh":
   version "0.13.1"
-  resolved "https://codeload.github.com/bourbondefi/BourbonV2-uikit/tar.gz/8ebc5710580619b542b81c89bdd5399cf39cd9e6"
+  resolved "https://codeload.github.com/bourbondefi/BourbonV2-uikit/tar.gz/99cc6593ba23529303f9447a20b682f467e49482"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
@@ -9596,9 +9596,9 @@ js-yaml@^3.13.1:
     esprima "^4.0.0"
 
 jsbi@^3.1.1:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.3.tgz#bb3c3bfcd9f18fbf14e1e6b749d1805b304c663e"
-  integrity sha512-j6G1XZPxyYxALX0XvgJMkyfwCpG/NOmzS8vDwXcAO5y3l2aclpabU9W0yli+G7Bfpv4j9Sg+Ln70i+wENNcaaw==
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.4.tgz#aba5b77a14d7f546adc0bd17ab82c07e29f54e91"
+  integrity sha512-iOygwxPzMYli5xrjfd83Vy4Wyu9Ovpw6wWWFy5Kj7XP+pZxPp7Cy72F92iAt2j+6tTDYunvLtC+2tH3xCX37ng==
 
 jsbn@~0.1.0:
   version "0.1.1"

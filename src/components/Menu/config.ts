@@ -22,12 +22,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'V4 Coming Soon',
+    label: 'Farms',
     icon: 'FarmIcon',
     href: '/',
   },
   {
-    label: 'V4 Coming Soon',
+    label: 'Distillery',
     icon: 'PoolIcon',
     href: '/',
   },

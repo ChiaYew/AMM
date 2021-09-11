@@ -704,6 +704,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "/images/coins/TSB.png"
+    },
+    {
+      "name": "Bourbon",
+      "symbol": "BOURBON",
+      "address": "0x953eFEBe00e7D573f027396f1E06231e04F7597f",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "/images/coins/BOURBON.png"
     }
   ]
 }
