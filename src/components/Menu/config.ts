@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/',
+    href: 'https://www.bourbondefi.com/farms',
   },
   {
     label: 'Distillery',
     icon: 'PoolIcon',
-    href: '/',
+    href: 'https://www.bourbondefi.com/pools',
   },
   {
     label: 'Bourbon Barrel Token',
