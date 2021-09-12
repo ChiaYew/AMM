@@ -32,6 +32,21 @@ const config: MenuEntry[] = [
     href: 'https://www.bourbondefi.com/pools',
   },
   {
+    label: 'Docs',
+    icon: 'InfoIcon',
+    href: 'https://app.gitbook.com/@bourbondefi/s/bourbon-finance/',
+  },
+  {
+    label: 'Bourbon Token',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'Contract',
+        href: 'https://bscscan.com/address/0x953eFEBe00e7D573f027396f1E06231e04F7597f',
+      },
+    ],
+  },
+  {
     label: 'Bourbon Barrel Token',
     icon: 'InfoIcon',
     items: [
